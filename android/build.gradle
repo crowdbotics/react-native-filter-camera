@@ -26,7 +26,7 @@ android {
   defaultConfig {
     minSdkVersion getExtOrIntegerDefault('minSdkVersion')
     targetSdkVersion getExtOrIntegerDefault('targetSdkVersion')
-  }  
+  }
 }
 
 repositories {
@@ -37,5 +37,5 @@ repositories {
 
 dependencies {
   api 'com.facebook.react:react-native:+'
-  api 'com.otaliastudios:cameraview:2.6.2'
+  api 'com.otaliastudios:cameraview:2.7.2'
 }
